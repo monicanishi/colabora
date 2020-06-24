@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Neucha&display=swap');
+html * {
+  box-sizing: border-box;
+}
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+}
+header {
+  background-color: orange;
+  height: 128px;
+  background-image: 100%;
+}
+
+h1 {color: white;
+  background-color: white;
+  background-image: url("header.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 48px 22px;
+  text-shadow: black;
+}
+
+h2 {color: black;}
+
+p {
+  text-align: justify;
+}
+span {
+  background-color: orange;
+}
+.nome {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nome:hover {
+  text-decoration: underline;
+}
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+Nav > a {
+Color: grey;
+Font-size: 20px;
+Padding:  22px 18px;
+Transition: all 0.3s;
+}
+
+.grid-nav {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-nav-item {
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.grid-nav-item:hover {
+  background-color: yellow;
+  text-decoration: underline;
+
+}
+.grid-main-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 22px;
+  padding: 22px;
+}
+#titulo {
+  grid-column: 1 / 4;
+}
+h3 {color: black;
+  margin: 16px 0;
+}
+
+h4 {color: white;}
+.btn {
+  background-color: #424242;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  margin: 12px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+footer  {
+  background-color: pink;
+   background-image: url("trabalho.jpg");
+   background-position: center;
+   background-size: cover;
+   border-radius: 8px;
+   padding: 48px 22px;
+   text-shadow: white;
+}
+small {color: white;
+  font-size: 12px;
+}
